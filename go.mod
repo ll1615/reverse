@@ -3,7 +3,7 @@ module gitea.com/ll1615/reverse
 go 1.13
 
 require (
-	gitea.com/ll1615/xorm v0.8.3-0.20200321055517-27635599ff3e
+	gitea.com/ll1615/xorm v0.8.3-0.20200321075446-42d14131e2c4
 	gitea.com/lunny/log v0.0.0-20190322053110-01b5df579c4e
 	github.com/denisenkom/go-mssqldb v0.0.0-20190707035753-2be1aa521ff4
 	github.com/go-sql-driver/mysql v1.4.1

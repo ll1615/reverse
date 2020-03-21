@@ -127,6 +127,8 @@ func tag(table *schemas.Table, col *schemas.Column) template.HTML {
 	isIdPk := isNameId && typestring(col) == "int64"
 
 	var res []string
+	res = append(res, fmt.Sprintf("'%s'", col.Name))
+
 	if !col.Nullable {
 		if !isIdPk {
 			res = append(res, "not null")
@@ -154,9 +156,21 @@ func tag(table *schemas.Table, col *schemas.Column) template.HTML {
 		res = append(res, "deleted")
 	}*/
 
-	if /*supportComment &&*/ col.Comment != "" {
-		res = append(res, fmt.Sprintf("comment('%s')", col.Comment))
+	if col.IsCreated {
+		res = append(res, "created")
 	}
+
+	if col.IsUpdated {
+		res = append(res, "updated")
+	}
+
+	if col.IsDeleted {
+		res = append(res, "deleted")
+	}
+
+	// if /*supportComment &&*/ col.Comment != "" {
+	// 	res = append(res, fmt.Sprintf("comment('%s')", col.Comment))
+	// }
 
 	names := make([]string, 0, len(col.Indexes))
 	for name := range col.Indexes {
@@ -216,7 +230,7 @@ func tag(table *schemas.Table, col *schemas.Column) template.HTML {
 		nstr += strings.TrimLeft(opts, ",")
 		nstr += ")"
 	}
-	res = append(res, nstr)
+	// res = append(res, nstr)
 	if len(res) > 0 {
 		return template.HTML(fmt.Sprintf(`xorm:"%s"`, strings.Join(res, " ")))
 	}

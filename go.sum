@@ -2,8 +2,8 @@ cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.37.4 h1:glPeL3BQJsbF6aIIYfZizMwc5LTYz250bDMjttbBGAU=
 cloud.google.com/go v0.37.4/go.mod h1:NHPJ89PdicEuT9hdPXMROBD91xc5uRDxsMtSB16k7hw=
-gitea.com/ll1615/xorm v0.8.3-0.20200321055517-27635599ff3e h1:PM9q2xwCQlCZcge4yx+Qxr8Ka74+H9VhPgU5hdE7lP8=
-gitea.com/ll1615/xorm v0.8.3-0.20200321055517-27635599ff3e/go.mod h1:DkgC1pvnxyQH/kVmzTpWhppxSobdlydAO7QgSNZ7sRk=
+gitea.com/ll1615/xorm v0.8.3-0.20200321075446-42d14131e2c4 h1:/8PoPTecco7iX1wlhn9ThU4RalqdtCdwnBmbuJ7vXmQ=
+gitea.com/ll1615/xorm v0.8.3-0.20200321075446-42d14131e2c4/go.mod h1:DkgC1pvnxyQH/kVmzTpWhppxSobdlydAO7QgSNZ7sRk=
 gitea.com/lunny/log v0.0.0-20190322053110-01b5df579c4e h1:r1en/D7xJmcY24VkHkjkcJFa+7ZWubVWPBrvsHkmHxk=
 gitea.com/lunny/log v0.0.0-20190322053110-01b5df579c4e/go.mod h1:uJEsN4LQpeGYRCjuPXPZBClU7N5pWzGuyF4uqLpE/e0=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
