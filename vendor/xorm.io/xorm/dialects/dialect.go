@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"xorm.io/xorm/core"
-	"xorm.io/xorm/schemas"
+	"gitea.com/ll1615/xorm/core"
+	"gitea.com/ll1615/xorm/schemas"
 )
 
 type URI struct {

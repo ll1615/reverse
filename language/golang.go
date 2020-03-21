@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"xorm.io/xorm/schemas"
+	"gitea.com/ll1615/xorm/schemas"
 )
 
 // Golang represents a golang language

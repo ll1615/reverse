@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"xorm.io/builder"
-	"xorm.io/xorm/schemas"
+	"gitea.com/ll1615/xorm/schemas"
 )
 
 type ErrUnsupportedExprType struct {

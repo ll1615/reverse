@@ -56,17 +56,17 @@ google.golang.org/appengine/cloudsql
 gopkg.in/yaml.v2
 # xorm.io/builder v0.3.6
 xorm.io/builder
-# xorm.io/xorm v0.8.3-0.20200310061142-2f95c750c348
-xorm.io/xorm
-xorm.io/xorm/caches
-xorm.io/xorm/contexts
-xorm.io/xorm/convert
-xorm.io/xorm/core
-xorm.io/xorm/dialects
-xorm.io/xorm/internal/json
-xorm.io/xorm/internal/statements
-xorm.io/xorm/internal/utils
-xorm.io/xorm/log
-xorm.io/xorm/names
-xorm.io/xorm/schemas
-xorm.io/xorm/tags
+# gitea.com/ll1615/xorm v0.8.3-0.20200310061142-2f95c750c348
+gitea.com/ll1615/xorm
+gitea.com/ll1615/xorm/caches
+gitea.com/ll1615/xorm/contexts
+gitea.com/ll1615/xorm/convert
+gitea.com/ll1615/xorm/core
+gitea.com/ll1615/xorm/dialects
+gitea.com/ll1615/xorm/internal/json
+gitea.com/ll1615/xorm/internal/statements
+gitea.com/ll1615/xorm/internal/utils
+gitea.com/ll1615/xorm/log
+gitea.com/ll1615/xorm/names
+gitea.com/ll1615/xorm/schemas
+gitea.com/ll1615/xorm/tags

@@ -7,7 +7,7 @@ package language
 import (
 	"html/template"
 
-	"xorm.io/xorm/schemas"
+	"gitea.com/ll1615/xorm/schemas"
 )
 
 // Language represents a languages supported when reverse codes
